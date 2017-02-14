@@ -3,12 +3,19 @@ In this question, I am going to use four point correspondences method to rectify
 
 After I figured out the correct coordinate system direction, I started to try using the basic Direct Linear Transformation
 algorithm (page 91) to calculate homography matrix H.
+
 Calculate the matrix Ai for each pair of points. Ai is a 2x9 matrix. 
 	Ai =     0T           -wi 'xiT       yi 'xi T
 	        wi 'xiT          0T         -xi 'xi T
      
 Assemble the four different Ai into a single 8x9 matrix A. 
+
 We have A h =0.
+
 Calculate the SVD of 8x9 matrix A. A=UDV', then h is the last column of V.
+
 Normalize matrix h so that the last element is 1. 
+
 Reshape h into a 3x3 matrix H, which is our output homography matrix.
+
+Then use H to rectify the image.
