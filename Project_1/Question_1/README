@@ -1,7 +1,8 @@
 
 In this question, I am going to use four point correspondences method to rectify the image.
 
-After I figured out the correct coordinate system direction, I started to try using the basic Direct Linear Transformation algorithm (page 91) to calculate homography matrix H.
+After I figured out the correct coordinate system direction, I started to try using the basic Direct Linear Transformation
+algorithm (page 91) to calculate homography matrix H.
 Calculate the matrix Ai for each pair of points. Ai is a 2x9 matrix. 
 	Ai =     0T           -wi 'xiT       yi 'xi T
 	        wi 'xiT          0T         -xi 'xi T
