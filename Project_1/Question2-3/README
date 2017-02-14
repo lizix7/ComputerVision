@@ -1,5 +1,0 @@
-In question 2 and 3, two step rectification is asked to be done with both images. 
-
-First step is to do the affine rectification which maps the line at infinity back to its canonical position. After this, all lines parallel in the real world are back to parallel. Second step is to do the metric rectification which maps the dual conic at infinity back to its canonical position. After this, all lines orthogonal in the real world are back to orthogonal. 
-
-
