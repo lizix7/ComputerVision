@@ -1,4 +1,5 @@
 In this project, H matrix is asked to be computed using different algorithms.
+
 1. Basic DLT algorithm.
 2. Normalized DLT algorithm.
 3. Gold Standard algorithm using Maximum Likelihood Estimation.
