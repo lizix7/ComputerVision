@@ -6,5 +6,5 @@
   If each pixel is a decimal number, then logic operation is hard to understand.
   
   Because for each colored image, it has RGB, 3 channels. And the range is from 0 to 255. 
-  'A = (105, 115, 102) B = (73, 155, 150)'
-  'C = A & B = (73,  19,   6)'
+  `A = (105, 115, 102) B = (73, 155, 150)`
+  `C = A & B = (73,  19,   6)`
