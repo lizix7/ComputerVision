@@ -43,3 +43,5 @@
     A & B = B
     A | B = A
     A ^ B = A
+    
+  If both A and B belong in (0,255), A ^ B has no meaning. Only when A is very close to B, A ^ B will give you a very small result, which represents a dark color. This is also the reason that the bitwise_xor result of two similar images has the background color as black. When A is very different to B, A ^ B will give you a very large result, which represents a bright color. This is the reason that the defects look really bright in the bitwise_xor result image.
