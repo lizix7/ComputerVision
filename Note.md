@@ -30,7 +30,7 @@
 
   It is still hard to understand, because it is not intuitive. 
   
-  If B is always black, B = (255,255,255).
+  If B is always white, B = (255,255,255).
   
     A & B = A
     A | B = B
@@ -38,7 +38,7 @@
     
     12 ^ 255 = 243
   
-  If B is always white, B = (0,0,0).
+  If B is always black, B = (0,0,0).
   
     A & B = B
     A | B = A
