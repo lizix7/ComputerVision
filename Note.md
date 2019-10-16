@@ -26,5 +26,20 @@
     105 & 73 = 73
     115 & 155 = 19
     102 & 150 = 6
+    All the above can be verified by the [bitwise calculator](https://miniwebtool.com/bitwise-calculator/?data_type=10&number1=102&number2=150&operator=AND).
+
+  It is still hard to understand, because it is not intuitive. 
   
-  All the above can be verified by the [bitwise calculator](https://miniwebtool.com/bitwise-calculator/?data_type=10&number1=102&number2=150&operator=AND).
+  If B is always black, B = (255,255,255).
+  
+    A & B = A
+    A | B = B
+    A ^ B = B - A 
+    
+    12 ^ 255 = 243
+  
+  If B is always white, B = (0,0,0).
+  
+    A & B = B
+    A | B = A
+    A ^ B = A
