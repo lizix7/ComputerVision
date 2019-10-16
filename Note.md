@@ -26,7 +26,7 @@
     105 & 73 = 73
     115 & 155 = 19
     102 & 150 = 6
-    All the above can be verified by the [bitwise calculator](https://miniwebtool.com/bitwise-calculator/?data_type=10&number1=102&number2=150&operator=AND).
+   All the above can be verified by the [bitwise calculator](https://miniwebtool.com/bitwise-calculator/?data_type=10&number1=102&number2=150&operator=AND).
 
   It is still hard to understand, because it is not intuitive. 
   
